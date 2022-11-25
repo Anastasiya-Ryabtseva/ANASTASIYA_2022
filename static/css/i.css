@@ -1,0 +1,58 @@
+main {
+  margin-top: 20rem;
+  margin-bottom: 0rem;
+  }
+.social-icons {
+  display: flex;
+  justify-content: left;
+  list-style: none;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  padding-left: 5rem;
+}
+.social-icons>li {
+  margin-left: 1rem;
+  margin-right: 0.25rem;
+}
+.social-icons a {
+  position: relative;
+  background-color: gray;
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: background-color .3s ease-in-out;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 1.1rem;
+}
+.social-icons a:hover {
+  background-color: #FFFFFF;
+}
+.social-icons a::before {
+  content: "";
+  position: absolute;
+  width: 1.2rem;
+  height: 1.2rem;
+  left: .65rem;
+  top: .65rem;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.social-icons .social-icon-vk::before {
+  background-image: url("https://www.isuct.ru/dept/chemkiber/dekanat/images/AKVELON/imgonline-com-ua-compressed-zzooe1895exjaw.jpg");
+}
+.social-icons .social-icon-telegram::before {
+  background-image: url("https://sun9-19.userapi.com/impf/oxr6lyiIYlk3kWXA6qg7OZioFBKcCANNs_mslQ/_FETFZr4dyA.jpg?size=0x0&quality=90&proxy=1&sign=eb3140beaedac42f04a7b8fe81c1945f&c_uniq_tag=5T9p7KkjloPixurVJSjvhczLnUgIjqB10jeqNs6vuEs&type=video_thumb");
+}
+.social-icons .social-icon-linkedin::before {
+  background-image: url("https://hcimages.static-homes.com/AccountData/150290148/LinkedIn_logo_initials.png");
+}
+.social-icons .social-icon-p::before {
+  background-image: url("https://avatars.mds.yandex.net/i?id=516a22ec3993e8100b9f46b3359b886deec3efb0-6946848-images-thumbs&n=13");
+}
+.social-icons .social-icon-github::before {
+  background-image: url("https://cdn2.iconfinder.com/data/icons/font-awesome/1792/github-square-1024.png");
+}

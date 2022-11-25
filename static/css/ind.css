@@ -1,0 +1,33 @@
+
+	body {
+		background: #9999 url(https://bestpres.ru/wp-content/uploads/2017/10/BP-slider-web.jpg);
+		color: #fff;
+		background-attachment: fixed;
+		background-repeat: repeat-x;
+		background-size: 100%;
+
+	}
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+main {
+  width: 500px;
+  margin: 100 auto 50px;
+  font-family: "Georgia", serif;
+  text-align: -webkit-center;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+}
